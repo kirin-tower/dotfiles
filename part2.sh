@@ -709,27 +709,6 @@ main() {
         tsks["check_files"]="Control the files.
 		        All files present."
 
-        tsks["configure_locales"]="Set the locales.
-    			      Locales ready."
-
-        tsks["configure_flags"]="Set the make.conf flags.
-    			    Make.conf flags ready."
-
-        tsks["configure_portage"]="Configure Portage.
-    			      Portage configured."
-
-        tsks["update_system"]="Update the system.
-    			  System updated."
-
-        tsks["set_timezone"]="Set the timezone.
-    			 Timezone configured."
-
-        tsks["set_cpu_microcode"]="Configure CPU Microcode.
-    			      CPU Microcode ready."
-
-        tsks["set_linux_firmware"]="Configure Linux Firmware.
-    			       Linux Firmware ready."
-
         tsks["build_linux"]="Build the Linux Kernel.
 			Linux Kernel ready."
 
@@ -765,10 +744,7 @@ main() {
 
         tsk_ord=("prepare_env" "select_timezone" "select_gpu" "collect_variables"
                 "select_external_hdd" "check_first_vars" "collect_credentials" "check_credentials"
-                "sync_repos" "retrieve_files" "check_files" "configure_locales" "configure_flags"
-                "configure_portage" "update_system" "set_timezone" "set_cpu_microcode" "set_linux_firmware"
-                "build_freetype" "build_linux" "generate_fstab" "configure_hosts" "configure_udhcpc"
-                "configure_openrc" "configure_accounts" "configure_repos" "initiate_new_vars"
+                "sync_repos" "retrieve_files" "check_files" "build_linux" "generate_fstab" "configure_hosts" "configure_udhcpc" "configure_openrc" "configure_accounts" "configure_repos" "initiate_new_vars"
                 "configure_shell" "create_boot_entry" "clean_and_finalize")
 
         ALLTSK="${#tsks[@]}"
