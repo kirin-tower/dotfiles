@@ -1,0 +1,7 @@
+# LINUX KERNEL CONFIGURATION #
+URL_KERNEL_CONFIG="https://github.com/emrakyz/dotfiles/blob/main/kernel_6_7_0_config"
+
+URL_BUSYBOX_CONFIG="https://raw.githubusercontent.com/emrakyz/dotfiles/main/busybox"
+URL_DEFAULT_SCRIPT="https://raw.githubusercontent.com/emrakyz/dotfiles/main/default.script"
+URL_UDHCPC_INIT="https://raw.githubusercontent.com/emrakyz/dotfiles/main/udhcpc"
+URL_UDHCPC_SH="https://raw.githubusercontent.com/emrakyz/dotfiles/main/udhcpc.sh"

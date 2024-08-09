@@ -1,0 +1,11 @@
+#!/sbin/openrc-run
+
+command="/usr/local/bin/udhcpc.sh"
+command_background=true
+pidfile="/run/udhcpc.pid"
+
+depend() {
+        need localmount
+        provide net
+        after modules
+}
